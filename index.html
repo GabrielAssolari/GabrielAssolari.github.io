@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css"
+		/>
+		<title>Document</title>
+	</head>
+	<body> 
+		<fieldset>
+		<form class="form" action="" method="GET">
+			<p>Nome: <input type="text" class="nome" /></p>
+			<p>Sobrenome: <input type="text" class="sobrenome" /></p>
+			<p>Peso: <input type="text" class="peso" /></p>
+			<p>Altura: <input type="text" class="altura" /></p>
+			<button class="btn">enviar</button>
+		</form>
+
+		<div class="resultado"></div>
+
+		<div class="tabela">
+			<table border="2">
+				<tr>
+					<td>Classificação</td>
+					<td>IMC</td>
+				</tr>
+				<tr>
+					<td>Abaixo do peso</td>
+					<td>Abaixo de 18.5</td>
+				</tr>
+				<tr>
+					<td>Peso Normal</td>
+					<td>Entre 18.5 até 24.9</td>
+				</tr>
+				<tr>
+					<td>SobrePeso</td>
+					<td>Entre 25 até 29.9</td>
+				</tr>
+				<tr>
+					<td>Obesidade Grau 1</td>
+					<td>Entre 30 até 34.9</td>
+				</tr>
+				<tr>
+					<td>Obesidade Grau 2</td>
+					<td>Entre 35 até 39.9</td>
+				</tr>
+				<tr>
+					<td>Obesidade Grau 3 ou Mórbida</td>
+					<td>Maior ou igual a 40</td>
+				</tr>
+			</table>
+		</fieldset>
+		</div>
+
+		<script src="./js/index.js"></script>
+	</body>
+</html>
